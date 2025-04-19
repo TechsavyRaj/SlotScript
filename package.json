@@ -1,0 +1,20 @@
+{
+  "name": "slotscript",
+  "version": "1.0.0",
+  "description": "Just a fun slot machine game built with JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slot",
+    "machine",
+    "bet",
+    "javascript"
+  ],
+  "author": "TechsavyRaj",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
