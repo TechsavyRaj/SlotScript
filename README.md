@@ -21,8 +21,8 @@ A fun and simple **Slot Machine Game** built using **JavaScript** and **Node.js*
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/slot-machine-game.git
-cd slot-machine-game
+git clone https://github.com/your-username/SlotScript.git
+cd SlotScript
 ```
 
 2. **Install dependencies:**
@@ -34,7 +34,7 @@ npm install
 3. **Run the app:**
 
 ```bash
-node server.js
+node index.js
 ```
 
 4. **Open in browser:**
