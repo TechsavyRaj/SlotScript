@@ -13,8 +13,7 @@ A fun and simple **Slot Machine Game** built using **JavaScript** and **Node.js*
 
 ## 🛠️ Technologies Used
 
-- Frontend: HTML, CSS, JavaScript
-- Backend: Node.js (for serving the game)
+- Backend: Node.js
 
 ## 📦 Installation
 
@@ -37,18 +36,10 @@ npm install
 node index.js
 ```
 
-4. **Open in browser:**
-
-Go to `http://localhost:3000` in your browser to play the game.
-
 ## 📁 Project Structure
 
 ```
-slot-machine-game/
-├── public/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
+SlotScript/
 ├── server.js
 ├── package.json
 └── README.md
@@ -56,13 +47,14 @@ slot-machine-game/
 
 ## 🎯 How to Play
 
-1. Click the **Spin** button.
-2. Watch the reels spin.
+1. Enter the details.
+2. Check the reels.
 3. If you get a winning combination — you win!
 4. Try your luck again!
 
 ## 🧰 Future Improvements
 
+- Add visual spinning reels to play
 - Add sound effects and animations
 - Improve win logic with more combinations
 - Store player score or history
@@ -75,6 +67,3 @@ MIT License
 ---
 
 Made with ❤️ by TechsavyRaj
-```
-
----

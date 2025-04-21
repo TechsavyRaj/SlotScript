@@ -52,13 +52,6 @@ const spin = () => {
         }
     }
 
-    // const reels = Array.from({ length: ROWS }, () => {
-    //     return Array.from({ length: COLS }, () => {
-    //         const randomSymbol = symbols[Math.floor(Math.random() * symbols.length)];
-    //         return randomSymbol;
-    //     });
-    // });
-
     const reels = [];
     for (let i = 0; i < ROWS; i++) {
         reels.push([]);
@@ -117,7 +110,6 @@ const gameLoop = () => {
     while (true) {
         const rowsChosen = getNumberOfSlots();
         const betPerSlot = getBetPerSlot(depositedAmount, rowsChosen);
-        // console.log(`You have deposited $${depositedAmount}, chosen ${rowsChosen} slots, and bet $${betPerSlot} per slot.`);
         console.log(`Your total bet amount is $${betPerSlot * rowsChosen}.`);
         depositedAmount -= betPerSlot * rowsChosen;
         const reels = spin();
